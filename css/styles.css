@@ -317,6 +317,18 @@ body {
   color: var(--main-title-color);
   margin-bottom: 10px;
 }
+.benefits-icon1::before {
+  margin-bottom: 30px;
+  display: flex;
+  content: '';
+  height: 120px;
+  background-color: #f5f4fa;
+  background-image: url(../images/icons.svg#icon-antenna);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
 
 .benefits-item-text {
   font-size: 14px;
